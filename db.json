@@ -1,0 +1,41 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "title": "State Management",
+      "image": "blocks",
+      "level": "easy",
+      "questionsAnswered": 0,
+      "questions": [
+        {
+          "title": "aut error rerum",
+          "answers": [
+            {
+              "title": "Voluptatem dolorum beatae",
+              "isRight": true
+            },
+            {
+              "title": "Id repudiandae atque. Error ut tenetur autem laudantium quaerat",
+              "isRight": false
+            },
+            {
+              "title": "Voluptatem sint vitae dolorem ea quam. Nostrum adipisci et. Incidunt corrupti perspiciatis quas aut velit est eligendi.",
+              "isRight": false
+            },
+            {
+              "title": "Est architecto accusamus voluptas culpa qui sit. Repellat est tempore veritatis illum eligendi quo est est nesciunt. Ut eos dolorem sit. Soluta repudiandae iure eveniet rerum.",
+              "isRight": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "name": "Bruno Souza",
+      "score": 75,
+      "photoUrl": "https://avatars.githubusercontent.com/u/29710382?v=4"
+    }
+  ]
+}
