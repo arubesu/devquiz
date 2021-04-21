@@ -1,4 +1,5 @@
 import 'package:DevQuiz/home/widgets/appbar_widget.dart';
+import 'package:DevQuiz/home/widgets/level_button_widget/level_button_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -11,6 +12,30 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBarWidget(),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            LevelButtonWidget(
+              label: 'Easy',
+              style: LevelButtonStyle.blue,
+            ),
+            LevelButtonWidget(
+              label: 'Medium',
+              style: LevelButtonStyle.green,
+            ),
+            LevelButtonWidget(
+              label: 'Hard',
+              style: LevelButtonStyle.orange,
+            ),
+            LevelButtonWidget(
+              label: 'Hero',
+              style: LevelButtonStyle.red,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
