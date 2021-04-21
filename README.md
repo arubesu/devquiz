@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+TODO: json server 
+dart installation 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
