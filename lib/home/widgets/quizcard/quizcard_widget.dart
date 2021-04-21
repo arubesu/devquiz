@@ -6,7 +6,7 @@ class QuizCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         decoration: BoxDecoration(
             color: AppColors.white,
             borderRadius: BorderRadius.circular(10),
@@ -39,7 +39,7 @@ class QuizCardWidget extends StatelessWidget {
                 Expanded(
                   flex: 1,
                   child: Text(
-                    "1 de 3",
+                    "1/3",
                     style: AppTextStyles.body11,
                   ),
                 ),
