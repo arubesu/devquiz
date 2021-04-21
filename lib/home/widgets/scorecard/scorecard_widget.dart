@@ -12,7 +12,7 @@ class ScoreCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(15.0),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(15),
+          padding: const EdgeInsets.all(24),
           child: Row(
             children: [
               Expanded(flex: 1, child: Chart()),
@@ -25,11 +25,11 @@ class ScoreCard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Vamos começar",
+                            "Let's start",
                             style: AppTextStyles.heading,
                           ),
                           Text(
-                            "Complete os desafios e avance em conhecimento",
+                            "Complete the challenges and gain experience",
                             style: AppTextStyles.body,
                           ),
                         ]),
