@@ -1,7 +1,5 @@
 import 'dart:convert';
 
-import 'package:collection/collection.dart';
-
 import 'answer_model.dart';
 
 class QuestionModel {
